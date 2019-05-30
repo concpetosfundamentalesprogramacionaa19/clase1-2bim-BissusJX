@@ -20,7 +20,7 @@ public class Ejemplo2 {
         Random aleatorios = new Random();
         int[] datos = new int[5];
         for(int i = 0; i<=10; i++){
-            int v = aleatorios.nextInt(4);
+            int v = aleatorios.nextInt(5);
             System.out.println(v);
             datos[v] = datos[v]+1;
         }
